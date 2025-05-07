@@ -1,0 +1,38 @@
+p::first-line{
+    color: rgb(255, 133, 133);
+    font-variant: small-caps;
+}
+p{
+    margin: 50px 50px 50px 50px;
+}
+div{
+    background-color: antiquewhite;
+    width: 300px;
+    border: 15px solid lightskyblue;
+    padding: 40px;
+    margin: 25%;
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
+}
+
+ul{
+    list-style-type: none;
+    /* overflow: hidden; */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    display: inline;
+}
+li a{
+    display: block;
+    color: #000;
+    padding: 30px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #555;
+    color: white;
+}

@@ -1,0 +1,15 @@
+/* body {
+    background-color: #7eb1fe;
+    font-family: 'Segoe UI', sans-serif;
+} */
+
+.card-img-top {
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+}
+.carousel-inner img {
+    height: 550px; /* or whatever size you want */
+    object-fit: cover; /* this keeps the aspect ratio and avoids distortion */
+  }
+  
