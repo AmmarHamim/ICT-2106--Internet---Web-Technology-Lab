@@ -1,0 +1,32 @@
+.hero {
+  background: url('Images/kids.png') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+.feature-card{
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.freature-icon
+{
+    width: 60px;
+    height: 60px;
+    background: #f8f9fa;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+.feature-card:hover {
+  transform: scale(1.05);
+}
+.top-header {
+  background-color: #000;
+  font-size: 1.5rem;
+}
