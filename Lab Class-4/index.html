@@ -1,91 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <style>
-      h1{
-        color: aliceblue;
-      }
-    </style>
-  </head>
-  <body>
-    <table>
-      <caption>
-        Computer Info
-      </caption>
-      <tr>
-        <th>Computer</th>
-        <th>Company</th>
-        <th>Country</th>
-      </tr>
-      <tr>
-        <td style="color: aliceblue">
-          <ul>
-            <li><b>Coffee</b></li>
-            <li>Mug</li>
-          </ul>
-        </td>
-        <td>Centro</td>
-        <td>Ernst</td>
-      </tr>
-      <tr>
-        <td>Alfreds</td>
-        <td>Centro</td>
-        <td>Ernst</td>
-      </tr>
-    </table>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="/Lab Class-4/css/style.css" />
+</head>
+<body>
+  <h1>My Portfolio</h1>
 
-    <div class="test" >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste non nisi,
-      hic autem minima minus commodi modi repudiandae ratione nemo quos aliquam
-      <p> explicabo rerum aut quas, ipsam fugit mollitia sapiente atque quidem?
-      Quasi, praesentium voluptates,  voluptatibus, ut ducimus inventore quia
-      doloremque repellendus quaerat officiis eaque minus eos saepe? Alias
-      nobis, iusto nam minima iste rem repellendus inventore temporibus animi
-      facilis! Repudiandae optio quod ut enim accusamus provident.
-      </p>
-    </div>
-    <div class="test">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste non nisi,
-      hic autem minima minus commodi modi repudiandae ratione nemo quos aliquam
-      explicabo rerum aut quas, ipsam fugit mollitia sapiente atque quidem?
-      Quasi, praesentium voluptates, voluptatibus, ut ducimus inventore quia
-      doloremque repellendus quaerat officiis eaque minus eos saepe? Alias
-      nobis, iusto nam minima iste rem repellendus inventore temporibus animi
-      facilis! Repudiandae optio quod ut enim accusamus provident.
-    </div>
-    <div class="test">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste non nisi,
-      hic autem minima minus commodi modi repudiandae ratione nemo quos aliquam
-      explicabo rerum aut quas, ipsam fugit mollitia sapiente atque quidem?
-      Quasi, <span id="myspan">praesentium</span> voluptates, voluptatibus, ut
-      ducimus inventore quia doloremque repellendus quaerat officiis eaque minus
-      eos saepe? Alias nobis, iusto nam minima iste rem repellendus inventore
-      temporibus animi facilis! Repudiandae optio quod ut enim accusamus
-      provident.
-    </div>
+  <!-- Projects Table -->
+  <table>
+    <caption>Recent Projects</caption>
+    <tr>
+      <th>Project</th>
+      <th>Role</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><b>Website Design</b></li>
+          <li>Responsive Layout</li>
+        </ul>
+      </td>
+      <td>Frontend Developer</td>
+      <td>2025</td>
+    </tr>
+    <tr>
+      <td>Blog Platform</td>
+      <td>Full Stack Developer</td>
+      <td>2024</td>
+    </tr>
+  </table>
 
-    <iframe
-      class="center"
-      src="secondpage.html"
-      width="500px"
-      height="500px"
-    >
-  
-</iframe>
+  <!-- Information Boxes -->
+  <div class="test">
+    <p>
+      Welcome! This section describes my recent projects and professional experiences.
+      Each box highlights a key area of my work.
+    </p>
+  </div>
 
-<form action="secondpage.html">
+  <div class="test">
+    <p>
+      I focus on creating responsive, user-friendly websites with clean design
+      and efficient functionality. Continuous learning is key to success.
+    </p>
+  </div>
+
+  <div class="test">
+    <p>
+      Highlighting a specific skill: 
+      <span id="myspan">Web Development</span>. CSS allows us to style individual 
+      words or phrases to emphasize important information.
+    </p>
+  </div>
+
+  <!-- Iframe -->
+  <iframe class="center" src="secondpage.html" width="500" height="500"></iframe>
+
+  <!-- Contact Form -->
+  <form action="secondpage.html">
     <label for="fname">First Name</label>
-    <input type="text" name="fname" id=""> <br>
-    <label for="lname">Last Name</label>
-    <input type="text" name="lname" id="lname"> <br>
-    
-    <input type="submit"> 
-  </form>
+    <input type="text" name="fname" id="fname" placeholder="Enter your first name">
 
- 
-  </body>
+    <label for="lname">Last Name</label>
+    <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
 </html>

@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- internal js -->
-    <!-- <script>
-        alert('Hello internal js');
-    </script> -->
-  </head>
-  <!-- inline js -->
-  <!-- <body onload="alert('Hello')"> -->
- <body> 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores
-      officia quae, nemo rerum impedit dolore sit ducimus magni consequuntur.
-    </p>
-<!--external js-->
-    <script type="text/javascript" src="js/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Demo</title>
+  <!-- External JS -->
+  <script defer src="js/index.js"></script>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; padding: 50px;">
+
+  <h1 style="color: #1a73e8;">JavaScript Demo</h1>
+
+  <p>
+    Click the button below to calculate the sum of two numbers using JavaScript.
+  </p>
+
+  <button id="calculateBtn" style="padding: 10px 20px; font-size: 18px; cursor: pointer;">
+    Calculate Sum
+  </button>
+
+  <div id="output" style="margin-top: 20px; font-size: 20px; font-weight: bold; color: green;"></div>
+
+</body>
 </html>

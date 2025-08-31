@@ -1,15 +1,38 @@
-/* body {
-    background-color: #7eb1fe;
-    font-family: 'Segoe UI', sans-serif;
-} */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-inner img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 .card-img-top {
-    height: auto;
-    max-height: 400px;
-    object-fit: contain;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
 }
-.carousel-inner img {
-    height: 550px; /* or whatever size you want */
-    object-fit: cover; /* this keeps the aspect ratio and avoids distortion */
-  }
-  
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.btn-group .btn {
+  transition: all 0.3s ease;
+}
+
+.btn-group .btn:hover {
+  transform: scale(1.05);
+}
+
+.accordion-item {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.alert {
+  border-radius: 8px;
+}
